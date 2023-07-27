@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0%;
+  font-size: larger;
+  background-image: url(../imagem\ de\ limpeza.jpg);
+}
+h1{
+  border: 1px solid rgb(18, 21, 22);
+  border-radius: 20px;
+  background-color: rgb(227, 248, 255);
+  color: rgb(72, 73, 73);
+  text-align: center;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+button {
+  border: 1px solid rgb(18, 21, 22);
+  border-radius: 20px;
+  background-color: rgb(227, 248, 255);
+  color: rgb(105, 197, 255);
+  text-align: center;
+  padding: 5px;
+  margin-top: 10%;
+}
+
+input[type="text"] {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: rgb(246, 246, 247);
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
